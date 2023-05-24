@@ -5,7 +5,7 @@
 Docker is a software platform that allows developers to run, build, test and monitor their applications.
 
 
-# Dockerfile in node
+# Docker in node
 ---
 > create Dockerfile 
 ```ruby
@@ -30,4 +30,12 @@ RUN npm run build
 
 # Start the app
 CMD ["npm", "start"]
+```
+
+---
+> create .dockerignore
+```ruby
+node_modules
+
+package-lock.json
 ```
