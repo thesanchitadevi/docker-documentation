@@ -2,8 +2,25 @@
 
 ## What is Docker?
 
-Docker is a software platform that allows developers to run, build, test and monitor their applications.
+Docker is a software platform that allows developers to run, build, test and monitor their applications. In Docker, everything is based on Images. An image is a combination of a file system and parameters.
 
+## Docker Commands
+### Docker Images
+---
+> docker run image
+
+``` docker run hello-world ```
+
+| Command | Description |
+| --- | --- |
+| docker | tells the Docker program on the OS that something needs to be done. |
+| run | create an instance of an image, which is then called a container. |
+| hello-world | represents an image from where a container is created. |
+
+---
+> docker images -> To see the list of Docker images on the system currently installed
+
+```docker images```
 
 ## Docker in node
 ### [https://github.com/thesanchitadevi/docker-in-node](https://github.com/thesanchitadevi/docker-in-node)
