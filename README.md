@@ -18,9 +18,23 @@ Docker is a software platform that allows developers to run, build, test and mon
 | hello-world | represents an image from where a container is created. |
 
 ---
-> docker images -> To see the list of Docker images on the system currently installed
+> docker images 
 
 ```docker images```
+
+ To see the list of Docker images on the system which are currently installed.
+ 
+ ---
+ > docker rmi ImageID
+
+```docker rmi ImageID```
+
+| Command | Description |
+| --- | --- |
+| docker | tells the Docker program on the OS that something needs to be done. |
+| rmi | command to remove any Docker images from the system. |
+| ImageID | put ID of the image which needs to be removed. |
+
 
 * Explore Docker Images > 
 [https://hub.docker.com/search?q=images](https://hub.docker.com/search?q=images)
