@@ -4,6 +4,8 @@
 
 Docker is a software platform that allows developers to run, build, test and monitor their applications. In Docker, everything is based on Images. An image is a combination of a file system and parameters.
 
+## What is Image and Container?
+
 ## Docker Commands
 ### Docker Images
 ---
